@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LVBP - Galería Estelar</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="brand-container">
+                <div class="brand-title">LVBP <span>Venezuela</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Equipos</a></li>
+                <li><a href="nosotros.html" class="active">Galería</a></li>
+                <li><a href="contacto.html">Inscripción Fan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="carousel-section">
+        <h2 class="carousel-title">GALERÍA DE MOMENTOS ÉPICOS</h2>
+
+        <!-- CARRUSEL CON LAS FOTOS DE VENEZUELA CAMPEÓN Y MOMENTOS HISTÓRICOS -->
+        <div class="carousel-container">
+            <button class="carousel-nav-btn prev-btn" id="prevBtn">&#10094;</button>
+            <button class="carousel-nav-btn next-btn" id="nextBtn">&#10095;</button>
+            
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide">
+                    <img src="./images/campeon1.jpg" alt="Venezuela Campeón del Mundo">
+                    <div class="carousel-caption">🇻🇪 ¡Gloriosa consagración de Venezuela Campeón del Mundo!</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="./images/campeon2.jpg" alt="Celebración de victoria">
+                    <div class="carousel-caption"> La emoción indescriptible de la victoria en el terreno de juego</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="./images/estadio.jpg" alt="Estadio de Béisbol">
+                    <div class="carousel-caption"> La gran fiesta de la pelota profesional en los estadios del país</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <strong>Liga Venezolana de Béisbol Profesional (LVBP)</strong>. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

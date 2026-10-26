@@ -1,0 +1,17 @@
+{
+  "name": "actividad-3.1",
+  "version": "1.0.0",
+  "description": "e-actividad 3.1 - Diseño web con Html & CSS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "sqlite3": "^5.1.7"
+  },
+  "allowScripts": {
+    "sqlite3@5.1.7": true
+  }
+}

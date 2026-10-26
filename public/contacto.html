@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LVBP - Registro de Fanáticos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="brand-container">
+                <div class="brand-title">LVBP <span>Venezuela</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Equipos</a></li>
+                <li><a href="nosotros.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Inscripción Fan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="form-wrapper">
+            <h2 style="text-align: center; color: var(--lvbp-gold); font-size: 2rem; margin-bottom: 0.5rem; text-transform: uppercase;">REGISTRO DE FANÁTICOS</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">Únete para recibir información oficial de la temporada y formar parte de nuestra base de datos.</p>
+            
+            <form id="courseForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Enmanuel Briceño">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="curso">Selecciona tu Equipo:</label>
+                    <select id="curso" name="curso" required>
+                        <option value="Leones del Caracas">Leones del Caracas</option>
+                        <option value="Navegantes del Magallanes">Navegantes del Magallanes</option>
+                        <option value="Cardenales de Lara">Cardenales de Lara</option>
+                        <option value="Tiburones de La Guaira">Tiburones de La Guaira</option>
+                        <option value="Tigres de Aragua">Tigres de Aragua</option>
+                        <option value="Águilas del Zulia">Águilas del Zulia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario / Jugador Favorito:</label>
+                    <textarea id="comentario" name="comentario" rows="3" placeholder="Escribe tu jugador favorito o comentario..."></textarea>
+                </div>
+                <button type="submit" class="btn-action" style="width: 100%;">Registrar</button>
+                <div id="alertBox" class="alert-message alert-success">¡Registrado exitosamente!</div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <strong>Liga Venezolana de Béisbol Profesional (LVBP)</strong>. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
