@@ -1,6 +1,4 @@
-/* ==========================================================================
-   PORTAL LVBP - HOJA DE ESTILOS PROFESIONAL CON PARALLAX
-   ========================================================================== */
+
 
 :root {
     --lvbp-navy: #00215b;
@@ -30,7 +28,7 @@ body {
     overflow-x: hidden;
 }
 
-/* --- HEADER & NAVBAR --- */
+
 header {
     background: rgba(0, 33, 91, 0.95);
     backdrop-filter: blur(12px);
@@ -107,7 +105,7 @@ header {
     color: var(--lvbp-gold);
 }
 
-/* --- HERO BANNER --- */
+
 .hero {
     background: radial-gradient(circle at top center, #0a3175 0%, var(--bg-dark) 80%);
     padding: 4rem 2rem;
@@ -155,7 +153,7 @@ header {
     box-shadow: 0 8px 25px rgba(245, 158, 11, 0.6);
 }
 
-/* --- EFECTO PARALLAX 3D CON IMAGEN LOCAL --- */
+
 .parallax-banner {
     background-image: linear-gradient(180deg, rgba(7, 10, 18, 0.5) 0%, rgba(7, 10, 18, 0.75) 100%),
                       url('../images/estadio2.png');
@@ -200,7 +198,7 @@ header {
     font-weight: 700;
 }
 
-/* --- CARRUSEL INTERACTIVO --- */
+
 .carousel-section {
     max-width: 1000px;
     margin: 3rem auto;
@@ -282,7 +280,7 @@ header {
 .prev-btn { left: 15px; }
 .next-btn { right: 15px; }
 
-/* --- GRILLA DE EQUIPOS --- */
+
 .container {
     max-width: 1280px;
     margin: 3rem auto;
@@ -346,7 +344,7 @@ header {
     font-size: 0.95rem;
 }
 
-/* --- FORMULARIO --- */
+
 .form-wrapper {
     max-width: 650px;
     margin: 0 auto;
@@ -405,7 +403,7 @@ header {
     color: #4ade80;
 }
 
-/* --- FOOTER --- */
+
 footer {
     background-color: var(--lvbp-navy-dark);
     border-top: 3px solid var(--lvbp-gold);
@@ -419,7 +417,7 @@ footer {
 footer strong {
     color: var(--lvbp-gold);
 }
-/* --- EFECTO ZOOM Y ELEVACIÓN EN EQUIPOS --- */
+
 .team-card {
     transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -436,7 +434,7 @@ footer strong {
 .team-card:hover img {
     transform: scale(1.1);
 }
-/* --- EFECTO DE APARICIÓN SUAVE (FADE IN) --- */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -451,7 +449,7 @@ footer strong {
 main, .container, .hero, .carousel-section {
     animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-/* --- EFECTO PULSO DEPORTIVO EN BOTONES --- */
+
 @keyframes pulseGlow {
     0% {
         box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
@@ -467,7 +465,7 @@ main, .container, .hero, .carousel-section {
 .btn-action {
     animation: pulseGlow 2.5s infinite;
 }
-/* --- EFECTO BRILLO METÁLICO EN TARJETAS --- */
+
 .team-card, .form-wrapper {
     position: relative;
     overflow: hidden;
